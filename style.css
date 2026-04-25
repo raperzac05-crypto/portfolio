@@ -29,6 +29,21 @@ section {
     margin: auto;
 }
 
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #94a3b8;
+}
+
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
