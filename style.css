@@ -12,10 +12,12 @@ body {
 
 nav {
     position: fixed;   
+    top: 0;
+    left: 0;
+    width: 100%;
     background: #020617;
-    display: flex;
     text-align: center;
-    padding: 15px 40px;
+    padding: 20px 0;
     z-index: 1000;
 }
 
@@ -88,5 +90,5 @@ section {
 .project-card a {
     color: #38bdf8;
     text-decoration: none;
-    font-width: bold;
+    font-weight: bold;
 }
