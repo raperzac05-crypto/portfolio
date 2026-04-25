@@ -12,9 +12,6 @@ body {
 
 nav {
     position: fixed;   
-    top: 0;
-    left: 0;
-    width: 100%;
     background: #020617;
     display: flex;
     text-align: center;
