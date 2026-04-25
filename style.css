@@ -12,17 +12,6 @@ nav {
     background: #020617;
 }
 
-.fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-.fade-in.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 nav ul {
     list-style: none;
     display: flex;
@@ -40,9 +29,30 @@ section {
     margin: auto;
 }
 
-.project {
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-card {
     background: #1e293b;
-    padding: 20px;
+    padding: 25px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-width: bold;
 }
