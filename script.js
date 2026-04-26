@@ -1,20 +1,17 @@
 const fadeElements = document.querySelectorAll(".fade-in");
 
-const observer = new IntersectionObserver((entries) => {
+const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
-        if(entry.isIntersecting)
+        if (entry.isIntersecting) 
         {
             entry.target.classList.add("show");
-        }
-        else
-        {
-            entry.target.classList.remove("show");
+            observer.unobserve(entry.target);
         }
     });
 }, {
     threshold: 0.2
 });
 
-fadeElements.forEach((element) => {
-    observer.observe(element);
+fadeElements.forEach((el) => {
+    observer.observe(el);
 });
