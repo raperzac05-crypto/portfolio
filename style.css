@@ -93,6 +93,58 @@ section {
     font-weight: bold;
 }
 
+.contact-form {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.form-group input,
+.form-group textarea {
+    background: #1e293b;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: 2px solid #38bdf8;
+}
+
+button {
+    background: #38bdf8;
+    color: #020617;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
 .contact-icons {
     display: flex;
     gap: 20px;

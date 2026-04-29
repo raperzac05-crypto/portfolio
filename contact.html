@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projects</title>
+        <title>Contact Me</title>
 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -24,14 +24,33 @@
             <h1>Zach Raper</h1>
             <p>Computer Science Student. Cybersecurity. Backend Development</p>
             <hr>
-        </header>  
-
+        </header>
+        
         <form action="https://formspree.io/f/meenjqej" method="POST">
-            <input type="text" name="first_name" placeholder="First Name" required>
-            <input type="text" name="last_name" placeholder="Last Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="description" placeholder="Description" required></textarea>
-            <button type="submit">Submit</button> 
+            <section id="Contact" class="fade-in">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>First Name *</label>
+                        <input type="text" name="first_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Last Name *</label>
+                        <input type="text" name="last_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea name="description" rows="5" required></textarea>
+                    </div>
+                </div>
+            <button type="submit">Submit</button>
+        </section>
         </form>
     </body>
 </html>
