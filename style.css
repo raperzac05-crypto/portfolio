@@ -118,7 +118,7 @@ section {
 
 .form-group input,
 .form-group textarea {
-    background: #1e293b;
+    background: #dadde0;
     border: none;
     padding: 12px;
     border-radius: 6px;
@@ -132,7 +132,7 @@ section {
 }
 
 button {
-    background: #38bdf8;
+    background: #dadde0;
     color: #020617;
     border: none;
     padding: 12px 20px;
