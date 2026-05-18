@@ -187,3 +187,47 @@ section {
 .contact-icons a:hover {
     color: #38bdf8
 }
+
+.experience-card {
+    background: #1e293b;
+    padding: 28px;
+    margin-top: 25px;
+    border-radius: 12px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.experience-card h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.role {
+    color: #94a3b8;
+    margin: 6px 0;
+}
+
+.date {
+    color: #94a3b8;
+    white-space: nowrap;
+}
+
+.location {
+    margin-top: 5px;
+    color: #cbd5e1;
+}
+
+.experience-card ul {
+    margin-top: 18px;
+    padding-left: 22px;
+}
+
+.experience-card li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
