@@ -268,3 +268,11 @@ body.light-mode .role,
 body.light-mode .date {
     color: #475569;
 }
+
+body.light-mode .contact-icons a {
+    color: #020617;
+}
+
+body.light-mode .contact-icons a:hover {
+    color: #38bdf8;
+}
