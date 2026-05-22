@@ -181,6 +181,7 @@ section {
 .contact-icons a {
     color: #ffffff;
     font-size: 28px;
+    transition: 0.3s ease;
     text-decoration: none;
 }
 
