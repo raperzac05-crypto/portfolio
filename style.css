@@ -231,3 +231,40 @@ section {
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
+.theme-toggle {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    background: #38bdf8;
+    color: #020617;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body.light-mode {
+    background: #f8fafc;
+    color: #020617;
+}
+
+body.light-mode nav {
+    background: #e2e8f0;
+}
+
+body.light-mode nav a {
+    color: #020617;
+}
+
+body.light-mode .project-card,
+body.light-mode .experience-card {
+    background: #e2e8f0;
+}
+
+body.light-mode .hero p,
+body.light-mode .role,
+body.light-mode .date {
+    color: #475569;
+}
