@@ -313,3 +313,78 @@ body.light-mode .location {
 body.light-mode .contact-icons a:hover {
     color: #38bdf8;
 }
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+    body {
+        padding-top: 90px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 18px;
+        font-size: 14px;
+    }
+
+    .theme-toggle {
+        position: static;
+        margin-top: 15px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 40px 18px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .about-text h2 {
+        font-size: 36px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .about-highlight {
+        font-size: 20px;
+    }
+
+    .about-image img {
+        width: 260px;
+        max-width: 100%;
+    }
+
+    .experience-header {
+        flex-direction: column;
+    }
+
+    .date {
+        white-space: normal;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .full-width {
+        max-width: 100%;
+    }
+
+    .form-group label {
+        font-size: 22px;
+    }
+}
