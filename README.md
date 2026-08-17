@@ -42,7 +42,7 @@ A personal portfolio website showcasing my projects, experience, and contact inf
 
 ## Projects Featured
 
-- **Concert Management Website** — PHP, MySQL, HTML, CSS
+- **Cybersecurity Home Lab** — VMware, Windoes Server 2022, Active Directory, Kali linux, PowerShell, Networking 
 - **Photon Laser Tag System** — Python, Pygame, PostgreSQL, UDP Networking
 - **AES Image Encryption & Mode Analysis** — Python, PyCryptodome, Pillow
 - **AI File Organizer** — Python, Claude API, CustomTkinter, FastAPI
