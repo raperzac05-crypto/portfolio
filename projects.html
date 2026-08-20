@@ -52,6 +52,59 @@
             
             <a href="https://github.com/raperzac05-crypto/Cybersecurirty-Home-Lab" target="_blank">View on Github</a>
         </div>
+
+        <div class="project-card">
+            <h3>AI-Powered Windows Event Log Analyzer</h3>
+
+            <p>
+                Built an autonomous Windows Event Log analysis tool that uses the Claude API to identify and summarize 
+                security-relevant events. Used an agentic tool-use loop rather than a fixed parsing script. The agent decides
+                for itself which events to pull, when to pivot on a suspicious pattern, and when it has gathered enough evidence
+                to conclude - tracking successful and failed logons, account creation, privilege escalation via group membership changed,
+                and scheduled task creation as a potential persistence mechanisms.
+            </p>
+
+            <p>
+                Implemented a custom tool-calling framework around pywin32's Event Log API, supporting both live queries
+                against the Security channel and analysis of exported .evtx files, with cross-source correlation by user
+                or source IP. Findings are surfaced with severity ratings and evidence-backed descriptions through a
+                CustomTkinter desktop interface with a live investigation feed, built on a multithreaded architecture to
+                keep the UI responsive during analysis.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong> Python, Anthropic Claude API, CustomTkinter, pywin32, Windows Event Log,
+                Multithreading
+            </p>
+
+            <a href="https://github.com/raperzac05-crypto/windows-log-analysis" target="_blank">View on Github</a>
+        </div>
+
+        <div class="project-card">
+            <h3>AI File Organizer</h3>
+            <p>
+                Built an agentic desktop application that uses Claude AI to automatically 
+                organize files into categorized subfolders based on file type.
+            </p>
+
+            <p>
+                The application features a real-time activity log, confirmation dialogs, 
+                and path validation to prevent accidental organization of system directories.
+                Packaged as a standalone Windows executable using PyInstaller.
+            </p>
+
+            <p>
+                This project features both an application version, as well as a web-based version built with FastAPI 
+                for remote file organization.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong> Python, Claude API, CustomTkinter, FastAPI, PyInstaller
+            </p>
+
+            <a href="https://github.com/raperzac05-crypto/AI-File-Organizer" target="_blank">View on Github</a>
+        </div>
+
         <div class = "project-card">
             <h3>Concert Management Website</h3>
 
@@ -125,30 +178,7 @@
             <a href="https://github.com/raperzac05-crypto/AES-Image-Encryption-Mode-Analysis" target="_blank">View on Github</a>
         </div>
 
-        <div class="project-card">
-            <h3>AI File Organizer</h3>
-            <p>
-                Built an agentic desktop application that uses Claude AI to automatically 
-                organize files into categorized subfolders based on file type.
-            </p>
-
-            <p>
-                The application features a real-time activity log, confirmation dialogs, 
-                and path validation to prevent accidental organization of system directories.
-                Packaged as a standalone Windows executable using PyInstaller.
-            </p>
-
-            <p>
-                This project features both an application version, as well as a web-based version built with FastAPI 
-                for remote file organization.
-            </p>
-
-            <p>
-                <strong>Technologies:</strong> Python, Claude API, CustomTkinter, FastAPI, PyInstaller
-            </p>
-
-            <a href="https://github.com/raperzac05-crypto/AI-File-Organizer" target="_blank">View on Github</a>
-        </div>
+        
     </section>
     <section class="fade-in" id="contact">
         <h2>Contact</h2>
