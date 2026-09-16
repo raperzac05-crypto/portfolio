@@ -388,3 +388,147 @@ body.light-mode .contact-icons a:hover {
         font-size: 22px;
     }
 }
+
+/* ===== RESUME ===== */
+.resume-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px 80px;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.resume-header h1 {
+    font-size: 42px;
+    margin-bottom: 6px;
+}
+
+.resume-header .contact-line {
+    font-size: 15px;
+    color: #aaaaaa;
+    margin-bottom: 0;
+}
+
+.resume-header .contact-line a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.btn-download {
+    display: inline-block;
+    background: #38bdf8;
+    color: #020617;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-download:hover {
+    background: #1aafd0;
+}
+
+.resume-divider {
+    border: none;
+    border-top: 1px solid #333333;
+    margin-bottom: 40px;
+}
+
+.resume-section {
+    background: #111111;
+    border-radius: 10px;
+    padding: 24px 28px;
+    margin-bottom: 16px;
+}
+
+body.light-mode .resume-section {
+    background: #e2e8f0;
+}
+
+.section-label {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #38bdf8;
+    margin-bottom: 12px;
+}
+
+.exp-entry {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #222222;
+}
+
+.exp-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 6px;
+}
+
+.exp-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.exp-date {
+    font-size: 13px;
+    color: #aaaaaa;
+    white-space: nowrap;
+}
+
+.exp-bullets {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.exp-bullets li {
+    position: relative;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 6px;
+}
+
+body.light-mode .exp-bullets li {
+    color: #334155;
+}
+
+.exp-bullets li::before {
+    content: '-';
+    position: absolute;
+    left: 0;
+    color: #38bdf8;
+}
+
+.stat {
+    font-weight: bold;
+    color: rgb(255, 255, 255); /* your gold accent */
+}
+
+.exp-title-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.company-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 4px;
+}
