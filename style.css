@@ -230,7 +230,7 @@ section {
     margin-top: 10px;
 }
 
-body.light-mode .contact-card{
+body.light-mode .contact-card {
     background: #e2e8f0;
 }
 
@@ -253,18 +253,6 @@ body.light-mode .contact-card{
 .form-group label {
     font-size: 26px;
     margin-bottom: 6px;
-}
-
-.form-group input,
-.form-group textarea {
-    background: #e0e0e0;
-    border: 1px solid #334155;
-    border-radius: 8px;
-    padding: 12px;
-    font-size: 18px;
-    color: white;
-    font-family: inherit;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .form-group input,
