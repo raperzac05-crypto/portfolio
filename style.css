@@ -223,6 +223,17 @@ section {
     color: red;
 }
 
+.contact-card {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 28px;
+    margin-top: 10px;
+}
+
+body.light-mode .contact-card{
+    background: #e2e8f0;
+}
+
 .contact-form {
     width: 100%;
 }
@@ -247,9 +258,39 @@ section {
 .form-group input,
 .form-group textarea {
     background: #e0e0e0;
-    border: none;
+    border: 1px solid #334155;
+    border-radius: 8px;
     padding: 12px;
     font-size: 18px;
+    color: white;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input,
+.form-group textarea {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+}
+
+body.light-mode .form-group input,
+body.light-mode .form-group textarea {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    color: #020617;
 }
 
 .form-group input {
@@ -267,17 +308,19 @@ section {
 
 .contact-form button {
     margin-top: 20px;
-    background: black;
-    color: white;
+    background: #38bdf8;
+    color: #020617;
     border: none;
+    border-radius: 8px;
     padding: 16px 38px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    transition: background 0.2s ease;
 }
 
 .contact-form button:hover {
-    background: #333;
+    background: #1aafd0;
 }
 
 /* ===== LIGHT MODE ===== */
